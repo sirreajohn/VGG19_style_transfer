@@ -1,6 +1,8 @@
 # Image to Image style Transfer using VGG-19 Neural Network
 
  - A py script to demonstrate the use of VGG19 in style transfer
+ - Example styles and content are in their directories
+ - made using Python and Pytorch
 
 ## Working 
 
