@@ -18,7 +18,7 @@ We take two images, content/context and a style image. the "style" of style imag
     - conv4_1 (layer 19)
     - conv5_1 (layer 28)
   - For Content Extraction
-    - conv4_2 (layer 28)
+    - conv4_2 (layer 22)
 - These specific layers are chosen according to this [paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 - We pass style and content images through this network and extract "features" at given layers, style images go through additional processing by making a gram matrix(G = A . A.t() ). 
 - We initialize a "target image" and calculate loss between target and content,target and style and combine the losses in weighted manner.
@@ -75,7 +75,6 @@ style_image = load_img("Path-to-style-image")
 
 style_transfer = style_trans(content_image,style_image)
 style_transfer.initialize_model()
-#inspect = style_transfer.get_features(style_image)
 style_transfer.train()
 ```
 
