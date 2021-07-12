@@ -48,7 +48,7 @@ self.target = self.content.clone().requires_grad_(True).to(self.dev)
 ``` 
 
 ## Results
-<img src="https://github.com/sirreajohn/VGG19_style_transfer/blob/main/outs/Mona.gif" width="425" height = "500"/> <img src="https://github.com/sirreajohn/VGG19_style_transfer/blob/main/outs/pilus_test_4.gif" width="425" height = "500"/>
+<img src="https://github.com/sirreajohn/VGG19_style_transfer/blob/main/outs/Mona.gif" width="400" height = "400"/> <img src="https://github.com/sirreajohn/VGG19_style_transfer/blob/main/outs/pilus_test_4.gif" width="400" height = "400"/>
 
 
 img credits : [Piyush Raj](https://www.linkedin.com/in/piyush-raj-988961167/)
